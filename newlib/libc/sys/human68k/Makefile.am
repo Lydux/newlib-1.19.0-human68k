@@ -13,7 +13,7 @@ noinst_LIBRARIES = lib.a
 lib_a_SOURCES = \
 	chmod.c close.c crt1.c doserror.c exit.c fds.c fork.c fstat.c \
 	getpid.c gettod.c isatty.c kill.c lseek.c main.c open.c read.c \
-	sbrk.c write.c
+	sbrk.c write.c link.c unlink.c
 EXTRA_lib_a_SOURCES = dummy.S
 lib_a_CCASFLAGS = $(AM_CCASFLAGS)
 lib_a_CFLAGS = $(AM_CFLAGS)
