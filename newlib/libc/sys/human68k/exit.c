@@ -9,7 +9,7 @@ extern pfunc __dtors_start[];
 extern pfunc __dtors_end[];
 
 void
-_exit (int status)
+exit (int status)
 {
   int i;
 

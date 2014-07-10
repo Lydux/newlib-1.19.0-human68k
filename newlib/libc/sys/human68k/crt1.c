@@ -123,6 +123,6 @@ __crt1_startup (void *mcb)
 
   __main (); 
   errno = 0;
-  _exit (main (__argc, __argv, environ));
+  exit (main (__argc, __argv, environ));
 }
 
